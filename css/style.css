@@ -1,0 +1,451 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(55, 4, 37);
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+ul li a:hover {
+    background: none;
+    border: 3px solid rgb(255, 216, 168);
+}
+
+.banner {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.logo {
+    height: 150px;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.landinpage-data {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 25%;
+
+}
+
+.landinpage-data h1 {
+    text-transform: capitalize;
+    font-size: 7em;
+    padding-bottom: 2rem;
+    color: rgb(255, 216, 168);
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+.landinpage-data p {
+    width: 526px;
+    font-size: 1.5em;
+    margin-bottom: 3rem;
+    color: rgb(255, 216, 168);
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-1 {
+    padding: 15px 60px;
+    color: rgb(55, 4, 37);
+    background-color: rgb(255, 216, 168);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+
+.btn-1:hover {
+    background-color: rgb(55, 4, 37);
+    color: rgb(255, 216, 168);
+    cursor: pointer;
+}
+
+.food-menu {
+    height: 400px;
+    color: rgb(255, 216, 168);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.menu-data h1 {
+    text-transform: capitalize;
+    font-size: 3.5em;
+    color: rgb(55, 4, 37);
+    margin-bottom: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.menu-data p {
+    font-size: 1.5em;
+    width: 786px;
+    text-align: center;
+    color: rgb(55, 4, 37);
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.btn-2 {
+    padding: 15px 60px;
+    background-color: rgb(55, 4, 37);
+    color: rgb(255, 216, 168);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+
+.btn-2:hover {
+    color: rgb(55, 4, 37);
+    background-color: rgb(255, 216, 168);
+    cursor: pointer;
+}
+
+.food-item {
+    background-image: url(../images/meny-food.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+
+}
+
+.about-marichi {
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.map-desing {
+    height: 550px;
+    transform: rotate(7deg);
+}
+
+.text h1 {
+    text-transform: capitalize;
+    font-size: 3.5em;
+    color: rgb(55, 4, 37);
+    margin-bottom: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.text p {
+    font-size: 1.5em;
+    width: 471px;
+    color: rgb(55, 4, 37);
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.btn-3 {
+    padding: 15px 60px;
+    background-color: rgb(55, 4, 37);
+    color: bisque;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.btn-3:hover {
+    color: rgb(55, 4, 37);
+    background-color: rgb(255, 216, 168);
+    cursor: pointer;
+}
+
+.discount {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 83.5vh;
+    background-color: bisque;
+
+}
+
+.tacos {
+    height: 600px;
+}
+
+.discount-text {
+    position: relative;
+    left: 5%;
+}
+
+.discount-text h1 {
+    text-transform: capitalize;
+    font-size: 8.5em;
+    color: rgb(240, 87, 87);
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.discount-text h3 {
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(55, 4, 37);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.discount-text h2 {
+    font-size: 5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: aqua;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.offers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(63, 9, 44);
+}
+
+.offers h1 {
+    text-transform: capitalize;
+    font-size: 3.5em;
+    color: bisque;
+    margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.offers p {
+    font-size: 1.5em;
+    width: 471px;
+    color: bisque;
+    font-weight: 500;
+    margin-bottom: 3.5rem;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.btn-4 {
+    padding: 15px 60px;
+    background-color: rgb(255, 216, 168);
+    color: rgb(55, 4, 37);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.btn-4:hover {
+    background-color: rgb(55, 4, 37);
+    color: rgb(255, 216, 168);
+    cursor: pointer;
+}
+
+.pedro-rodriguez {
+    background-image: url("../images/foods.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.pedro-text p {
+    width: 900px;
+    font-weight: 600;
+    color: bisque;
+    letter-spacing: 1px;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.pedro-text h1 {
+    font-size: 3.5em;
+    color: bisque;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.last-offers {
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.last-offers h1 {
+    font-size: 3.5em;
+    color: rgb(55, 4, 37);
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.last-offers p {
+    text-transform: capitalize;
+    font-size: 1.5em;
+    color: rgb(55, 4, 37);
+    margin-bottom: 2rem;
+    width: 800px;
+    margin-bottom: 5rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+input[type=text] {
+    margin-left: 4.5rem;
+    font-size: 15px;
+    width: 500px;
+    padding-left: 30px;
+    height: 50px;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+
+.btn-5 {
+    position: relative;
+    left: -50px;
+    top: 3px;
+    padding: 0 30px;
+    height: 50px;
+    background-color: rgb(55, 4, 37);
+    color: bisque;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+
+.footter-sec {
+    height: 500px;
+    background-color: rgb(55, 4, 37);
+    position: relative;
+}
+
+.about-sec {
+    display: flex;
+    background-color: rgb(55, 4, 37);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    gap: 160px;
+}
+
+.footter-sec h1 {
+    font-size: 30px;
+    color: bisque;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.first-footer i{
+    font-size: 30px;
+    padding: 45px 5px;
+    color: rgb(255, 216, 168);
+}
+
+.text-data-footer {
+    color: bisque;
+    font-size: 20px;
+
+}
+
+.first-footer {
+    width: 500px;
+}
+
+ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: bisque;
+    text-transform: capitalize;
+    line-height: 27px;
+}
+
+ul li {
+    width: 114px;
+}
+
+.dulam {
+    margin-bottom: 5rem;
+}
